@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/foodiewebs/static/css/main.95f1538d.css",
+    "main.js": "/foodiewebs/static/js/main.aa2c97ae.js",
+    "static/media/10.jpg": "/foodiewebs/static/media/10.8e883c5435d465786f5d.jpg",
+    "static/media/img-1.jpg": "/foodiewebs/static/media/img-1.0c61c7ca50c4755d5099.jpg",
+    "static/media/bg.jpg": "/foodiewebs/static/media/bg.56ba06d1a9dcaa72a847.jpg",
+    "static/media/slick.svg": "/foodiewebs/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/foodiewebs/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/foodiewebs/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/foodiewebs/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/foodiewebs/index.html",
+    "main.95f1538d.css.map": "/foodiewebs/static/css/main.95f1538d.css.map",
+    "main.aa2c97ae.js.map": "/foodiewebs/static/js/main.aa2c97ae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.95f1538d.css",
+    "static/js/main.aa2c97ae.js"
+  ]
+}
