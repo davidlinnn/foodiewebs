@@ -11,7 +11,7 @@ function Clock() {
 
   const fetchTime = async () => {
     try {
-      const response = await fetch("http://worldtimeapi.org/api/timezone/Europe/Budapest");
+      const response = await fetch("https://worldtimeapi.org/api/timezone/Europe/Budapest");
       const data = await response.json();
       const { datetime } = data;
       setCurrentTime(datetime);
