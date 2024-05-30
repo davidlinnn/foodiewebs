@@ -1,0 +1,71 @@
+.map-wrapper {
+    text-align: center;
+    margin: 0 auto;
+    width: 60%; 
+    max-width: 600px; 
+    padding: 20px;
+}
+
+.map-wrapper h2 {
+    margin-bottom: 20px; 
+    font-family: Arial, sans-serif;
+    font-size: 1.5em; 
+    color: #333;
+}
+
+.leaflet-container {
+    height: 50vh; 
+    width: 100%; 
+    border-radius: 10px; 
+    overflow: hidden; 
+    position: relative;
+    z-index: 1; /* Pastikan peta di bawah navbar */
+}
+
+@media only screen and (max-width: 600px) {
+    .leaflet-container {
+        height: 40vh; 
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .leaflet-container {
+        height: 30vh; 
+    }
+}
+
+.leaflet-control-zoom {
+    font-size: 0.8em; 
+    padding: 3px; 
+    left: 10px; 
+    z-index: 2; /* Pastikan kontrol zoom berada di bawah navbar */
+    border-radius: 5px; 
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); 
+}
+
+@media only screen and (max-width: 600px) {
+    .leaflet-control-zoom {
+        font-size: 0.7em;
+        padding: 2px;
+        top: 15px; 
+        left: 15px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .leaflet-control-zoom {
+        font-size: 0.6em; 
+        padding: 1px; 
+        top: 20px; 
+        left: 20px;
+    }
+}
+
+.leaflet-control-attribution {
+    background: rgba(0, 0, 0, 0.5); /* Atur latar belakang label menjadi hitam semi-transparan */
+    color: white; /* Atur warna teks menjadi putih */
+    padding: 5px; /* Tambahkan padding untuk membuatnya terlihat lebih rapi */
+    border-radius: 3px; /* Opsional: Tambahkan border radius untuk tampilan yang lebih halus */
+    z-index: 2; /* Pastikan teks Leaflet berada di bawah navbar */
+}

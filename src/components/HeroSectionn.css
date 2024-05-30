@@ -1,0 +1,91 @@
+image {
+  object-fit: cover;
+  width: 50%;
+  height: 50%;
+  position: fixed;
+  z-index: -1;
+}
+
+.heros-containerr {
+  background: url('/public/images/bg.jpg') center center/cover no-repeat; 
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+}
+
+.vidiokonten {
+  border-radius: 27px;
+}
+
+.heros-containerr > h1 {
+  color: #fff;
+  font-size: 3rem;
+  text-align: center;
+  margin: 0 20px;
+}
+
+.heros-containerr > p {
+  margin-top: 8px;
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+  .vidiokonten {
+    width: 800px;
+}
+
+@media screen and (max-width: 960px) {
+  .heros-containerr > h1 {
+    font-size: 2.5rem;
+    margin-top: -150px;
+  }
+
+  .vidiokonten {
+    width: 600px;
+  }
+  .heros-containerr > p {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .heros-containerr > h1 {
+    font-size: 2rem;
+    margin-top: -100px;
+  }
+
+  .vidiokonten {
+    width: 600px;
+  }
+
+  .heros-containerr > p {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .heros-containerr > h1 {
+    font-size: 1.5rem;
+    margin-top: -50px;
+  }
+
+  .vidiokonten {
+    max-width: 90%;
+  }
+  .heros-containerr > p {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .vidiokonten {
+    width: 550px;
+  }
+}

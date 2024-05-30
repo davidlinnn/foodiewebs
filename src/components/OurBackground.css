@@ -1,0 +1,54 @@
+image {
+    object-fit: cover;
+    width: 30%;
+    height: 50%;
+    position: fixed;
+    z-index: -1;
+  }
+  
+  .hero-karen {
+    background: url('/public/images/img-1.jpg') center center/cover no-repeat; 
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+  }
+  
+  .hero-karen > h1 {
+    color: blanchedalmond;
+    font-size: 50px;
+    text-shadow: 4px 5px #000;
+  }
+  
+  .hero-karen > p {
+    margin-top: 8px;
+    color:blanchedalmond;
+    text-shadow: 3px 3px #000;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+  }
+  
+  @media screen and (max-width: 960px) {
+    .hero-karen > h1 {
+      font-size: 70px;
+      margin-top: -150px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .hero-karen > h1 {
+      font-size: 50px;
+      margin-top: -100px;
+    }
+  
+    .hero-karen > p {
+      font-size: 30px;
+    }
+  
+   
+  }
+  
